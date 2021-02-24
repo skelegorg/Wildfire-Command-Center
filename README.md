@@ -1,1 +1,1 @@
-# idk.chat
+# Wildfire Command Center
