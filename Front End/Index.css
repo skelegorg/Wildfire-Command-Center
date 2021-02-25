@@ -97,8 +97,8 @@ img { max-width: 100%; }
 
 #vbA { /* ! */
     position: absolute;
-    right: 30%;
-    bottom: 39%;
+    right: 16%;
+    bottom: 42%;
     animation: shaky 2s infinite linear alternate-reverse;
 }
 .falling {
