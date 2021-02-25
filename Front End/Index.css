@@ -12,6 +12,7 @@ body.fade-out {
 @font-face {
     font-family: 'Coolvetica';
     src: url("./Assets/coolvetica\ rg.ttf");
+    font-size: 5vw;
 }
 @keyframes spinny {
     from {
@@ -80,25 +81,27 @@ img { max-width: 100%; }
     top: 16%;
     animation: spinny 11s infinite linear;
 }
-
-#vbR { /* @ */
-    position: absolute;
-    left: 15%;
-    bottom: 45%;
-    animation: spinny 5s infinite linear;
+#txt {
+    position: relative;
+}
+#txt #vbR { /* @ */
+    position:absolute;
+    left: 13%;
+    top: 0%;
+    animation: spinny 5s infinite linear reverse;
 }
 
 #bgP { /* poiple */
     position: absolute;
     right: -6%;
-    top: 23%;
+    top: 19%;
     animation: spinny 5s infinite linear reverse;
 }
 
 #vbA { /* ! */
     position: absolute;
-    right: 16%;
-    bottom: 42%;
+    right: -20%;
+    bottom: 31%;
     animation: shaky 2s infinite linear alternate-reverse;
 }
 .falling {
@@ -120,7 +123,7 @@ img { max-width: 100%; }
 
 .title {
     font-family: 'Coolvetica';
-    font-size: 6vw;
+    font-size: 6vw; 
     text-align: center;
     margin-top: 0px;
     margin-bottom: 2px;
@@ -129,7 +132,7 @@ img { max-width: 100%; }
 
 .subtitle {
     font-family: 'Coolvetica';
-    font-size: 4vw;
+    font-size: 4vw; 
     text-align: center;
     margin-top: 2px;
 }
@@ -161,28 +164,6 @@ img { max-width: 100%; }
     border: 3px solid #333;
     transition: all .35s;
     font-family: 'Coolvetica';
-  }
-  
-  .icon{
-    width: 50px;
-    height: 50px;
-    border: 3px solid transparent;
-    position: absolute;
-    transform: rotate(45deg);
-    right: 0;
-    top: 0;
-    z-index: -1;
-    transition: all .35s;
-  }
-  
-  .icon svg{
-    width: 30px;
-    position: absolute;
-    top: calc(50% - 15px);
-    left: calc(50% - 15px);
-    transform: rotate(-45deg);
-    fill: #3b3b3b;
-    transition: all .35s;
   }
   
   div a:hover{
