@@ -56,6 +56,18 @@ body {
     transition: all 0.5s ease;
     transform: translateX(-10px) translateX(-50%) translateY(-10px);
 } 
+
+.form:hover > .heading#a {
+    transition: all 0.9s ease;
+    border-color: #fffd83;
+    background-color: #fffd83;
+}
+
+.form:hover > .heading#b {
+    transition: all 0.9s ease;
+    border-color: #90ff81;
+    background-color: #90ff81;
+}
 .form#b {
     margin-left: 66%;
     margin-top: 5%;
@@ -89,7 +101,6 @@ body {
     border-bottom-right-radius: 15px;
     position: relative;
     text-align: center;
-    height: 60%;
     background-color: #aaa9a9;
 }
 
@@ -111,7 +122,9 @@ body {
 .body#b input#top {
     margin-top: 10%;
 }
-
+.body button {
+    margin-bottom: 10%;
+}
 .body#a button {
     border: 10px solid #e9e9e9;
     border-radius: 15px;
@@ -173,10 +186,11 @@ img { max-width: 100%; }
 
 #bgR { /* pink */
     position: absolute;
-    right: -6%;
-    top: 66%;
-    animation: spinny 13s infinite linear reverse;
+    right: 16%;
+    bottom: -17%;
+    animation: spinny 8s infinite linear reverse;
 }
+
 
 #bgC { /* yello jello */
     position: absolute;
@@ -327,7 +341,7 @@ nav a:nth-child(3):after
 #indicator
 {
     position: absolute;
-    left: 5%;
+    left: 38%;
     bottom: 0;
     width: 30px;
     height: 3px;
@@ -343,6 +357,7 @@ nav a:hover:before, nav a:hover:after
 
 nav a:nth-child(1):hover ~ #indicator
 {
+    left: 5%;
     background: linear-gradient(130deg, yellow, red);
 }
 
