@@ -4,10 +4,6 @@
     opacity: 1;
     transition: 1s opacity;
 }
-body.fade-out {
-    opacity: 0;
-    transition: none;
-  }
 
 @font-face {
     font-family: 'Coolvetica';
@@ -44,10 +40,18 @@ body.fade-out {
     }
 }
 
-
+#txt {
+    position: absolute;
+    left: 15%;
+    width: 99%;
+    
+    transform: translate(-15%);
+    transition: transform 1s ease; 
+}
 img { max-width: 100%; }
 
 #bgL { /* green */
+    transition: spinny 0.75s ease;
     position: absolute;
     left: 14%;
     bottom: -16%;
@@ -56,9 +60,9 @@ img { max-width: 100%; }
 
 #bgR { /* pink */
     position: absolute;
-    right: -6%;
-    top: 66%;
-    animation: spinny 13s infinite linear reverse;
+    right: 16%;
+    bottom: -17%;
+    animation: spinny 8s infinite linear reverse;
 }
 
 #bgC { /* yello jello */
@@ -81,15 +85,7 @@ img { max-width: 100%; }
     top: 16%;
     animation: spinny 11s infinite linear;
 }
-#txt {
-    position: relative;
-}
-#txt #vbR { /* @ */
-    position:absolute;
-    left: 13%;
-    top: 0%;
-    animation: spinny 5s infinite linear reverse;
-}
+
 
 #bgP { /* poiple */
     position: absolute;
