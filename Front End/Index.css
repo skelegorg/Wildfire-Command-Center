@@ -169,10 +169,10 @@ img { max-width: 100%; }
   
   div a:hover{
     width: 200px;
-    border: 3px solid #3b3b3b;
+    border: 3px solid #b8b8b8;
     background: transparent;
-    color: #3b3b3b;
-  }
+    color: #fff;
+}
   
   div a:hover + .icon{
     border: 3px solid #3b3b3b;
