@@ -1,5 +1,5 @@
-const page = require("../Front End/about.html");
+const thisPage = require("../Front End/about.html");
 
 exports.getAbout = (req, res) => {
-    res.sendFile(page);
+    res.sendFile(thisPage);
 }

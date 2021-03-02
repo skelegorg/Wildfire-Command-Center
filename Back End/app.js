@@ -15,6 +15,7 @@ mongoose.connection.on("error", err => console.log(`Database Connection Error: $
 
 // route inclusions
 const accountRoutes = require("./routes/post");
+const homeRoutes = require("./routes/home");
 
 // middleware
 app.use(morgan('dev'));
