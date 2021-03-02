@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca023a81-97bb-4628-ba21-23daa3d1caa9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/validator/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/Mont-Heavy.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/Mont-Heavy.otf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_aqua.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_cyan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_cyan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_green.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_green.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_pink.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_pink.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_red.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_rose.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_rose.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/bar_yellow.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/bar_yellow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/blue_at.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/blue_at.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/coolvetica rg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/coolvetica_rg.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/cyan_j.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/cyan_j.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/green_x.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/green_x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/idkchatbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/idkchatbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/idkchathomepagebanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/idkchathomepagebanner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/idkchatlogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/idkchatlogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/idkchatnavibar.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/idkchatnavibar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/orange_hash.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/orange_hash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/pink_a.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/pink_a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/purple_g.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/purple_g.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/red_t.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/red_t.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/wildfirelogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/wildfirelogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/wildfirelogo64.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/wildfirelogo64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/yellow_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/yellow_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Assets/yellow_y.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/Assets/yellow_y.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/Index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/testlogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/testlogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/testlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/testlogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/testlogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/testlogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/accountController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/accountController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/account.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
