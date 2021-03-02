@@ -1,25 +1,14 @@
-/*
-    Elements of an account:
-        account name (username)
-        date created
-        hashed password
- */
-
 const mongoose = require("mongoose");
 
-const accountSchema = new mongoose.Schema({
-    title: {
+const accSchema = new mongoose.Schema({
+    username: {
         type: String,
-        required: "Title is required",
-        minlength: 4,
-        maxlength: 150
+        required: "Username required"
     },
-    body: {
+    password: {
         type: String,
-        required: "Body is required",
-        minlength: 4,
-        maxlength: 2000
+        required: "Password required"
     }
 });
 
-module.exports = mongoose.model("Account", accountSchema);
+module.exports = mongoose.model("Account", accSchema);
