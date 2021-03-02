@@ -11,7 +11,7 @@ body.fade-out {
 
 @font-face {
     font-family: 'Coolvetica';
-    src: url("/Assets/coolvetica rg.ttf");
+    src: url("Assets/coolvetica_rg.ttf") format("truetype");
     font-size: 5vw;
 }
 @keyframes spinny {
