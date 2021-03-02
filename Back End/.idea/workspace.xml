@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca023a81-97bb-4628-ba21-23daa3d1caa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/accountController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front End/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front End/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/aboutpage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/homepage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/post.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/post.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
