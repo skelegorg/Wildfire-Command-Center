@@ -1,0 +1,391 @@
+body {
+    background-color: #222222;
+    overflow: hidden; /* Hide scrollbars */
+    opacity: 1;
+    transition: 1s opacity;
+}
+@font-face {
+    font-family: 'Coolvetica';
+    src: url("./Assets/coolvetica\ rg.ttf");
+    font-size: 5vw;
+    color: #fff
+}
+@keyframes spinny {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(359.99deg);
+    }
+}
+@keyframes movingXR {
+    from {
+        transform: translateX(0%);
+    } to {
+        transform: translateX(300%);
+    }
+}
+
+@keyframes movingXL {
+    from {
+        transform: translateX(0%);
+    } to {
+        transform: translateX(-300%);
+    }
+}
+
+/* login form */
+.container {
+    position: relative;
+    font-family: 'Coolvetica';
+}
+
+.form {
+    position: fixed;
+    width: 20%; 
+    height: 80%;
+    margin-left: 33%;
+    margin-top: 5%;
+    transform: translateX(-50%);
+    transition: transform 0.7s ease;
+}
+.form#a {
+    margin-top: 10%;
+    height: 50%;
+}
+.form:hover {
+    transition: all 0.5s ease;
+    transform: translateX(-10px) translateX(-50%) translateY(-10px);
+} 
+
+.form:hover > .heading#a {
+    transition: all 0.9s ease;
+    border-color: #fffd83;
+    background-color: #fffd83;
+}
+
+.form:hover > .heading#b {
+    transition: all 0.9s ease;
+    border-color: #90ff81;
+    background-color: #90ff81;
+}
+.form#b {
+    margin-left: 66%;
+    margin-top: 5%;
+    
+}
+
+.heading {
+    border: 10px solid #fffeb3;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+    text-align: center;
+    height: 30%;
+    background-color: #fffeb3;
+}
+.heading#a {
+    height: 49%
+}
+.heading#b {
+    background-color: #bcffb3;
+    border: 10px solid #bcffb3;
+}
+.heading p {
+    padding-top: 5%;
+}
+
+.body {
+    font-family: "Coolvetica";
+    border: 10px solid #aaa9a9;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #aaa9a9;
+}
+
+.body#a input {
+    border: 10px solid #d3d3d3;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #d3d3d3;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition: box-shadow 0.9s ease
+}
+
+.body#a input#top {
+    margin-top: 10%;
+}
+
+.body#b input#top {
+    margin-top: 10%;
+}
+.body button {
+    margin-bottom: 10%;
+}
+.body#a button {
+    border: 10px solid #e9e9e9;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-top: 5%;
+    bottom: -5%;
+    width: 60%;
+    transition: box-shadow 0.9s ease
+}
+.body#b button {
+    border: 10px solid #e9e9e9;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-top: 3%;
+    bottom: -5%;
+    width: 60%;
+    transition: box-shadow 0.9s ease
+}
+.body button:focus {
+    outline: none;
+    box-shadow: 0 5px 15px rgba(63, 63, 63, 0.719);
+    transition: all 0.4s ease-in-out;
+}
+
+.body input:focus {
+    outline: none;
+    box-shadow: 0 5px 15px rgba(36, 36, 36, 0.719);
+    transition: all 0.4s ease-in-out;
+    border: none; 
+    border-width: 0; 
+}
+
+.body#b input {
+    border: 10px solid #d3d3d3;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    background-color: #d3d3d3;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition: box-shadow 0.9s ease
+}
+
+
+
+
+img { max-width: 100%; }
+
+#bgL { /* green */
+    position: absolute;
+    left: 14%;
+    bottom: -16%;
+    animation: spinny 15s infinite linear;
+}
+
+#bgR { /* pink */
+    position: absolute;
+    right: 16%;
+    bottom: -17%;
+    animation: spinny 8s infinite linear reverse;
+}
+
+
+#bgC { /* yello jello */
+    position: absolute;
+    top: -16%;
+    left: 23%;
+    animation: spinny 15s infinite linear;
+}
+
+#bgB { /* cyan */
+    position: absolute;
+    right: 14%;
+    top: -16%;
+    animation: spinny 11s infinite linear reverse;
+}
+
+#bgT {/* red */
+    position: absolute;
+    left: -6%;
+    top: 16%;
+    animation: spinny 11s infinite linear;
+}
+#txt {
+    position: relative;
+}
+#txt #vbR { /* @ */
+    position:absolute;
+    left: 13%;
+    top: 0%;
+    animation: spinny 5s infinite linear reverse;
+}
+
+#bgP { /* poiple */
+    position: absolute;
+    right: -6%;
+    top: 19%;
+    animation: spinny 5s infinite linear reverse;
+}
+
+#vbA { /* ! */
+    position: absolute;
+    right: -20%;
+    bottom: 31%;
+    animation: shaky 2s infinite linear alternate-reverse;
+}
+.falling {
+    
+    z-index: -1;
+    animation-fill-mode: forwards;
+}
+
+.title {
+    font-family: 'Coolvetica';
+    font-size: 4vw; 
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:#000;
+}
+
+.subtitle {
+    font-family: 'Coolvetica';
+    font-size: 2vw; 
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* navi */
+nav
+{
+    position: absolute;
+    top: 4%;
+    margin-right: 95%;
+    margin-left: 0%;
+    width: 319px;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+nav a
+{
+    position: relative;
+    font-family: 'Coolvetica';
+    width: 33.333%;
+    display: table-cell;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after
+{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before
+{
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after
+{
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before
+{
+    background-color: yellow;
+}
+
+nav a:nth-child(1):after
+{
+    background-color: red;
+}
+
+nav a:nth-child(2):before
+{
+    background-color: #00e2ff;
+}
+
+nav a:nth-child(2):after
+{
+    background-color: #89ff00;
+}
+
+nav a:nth-child(3):before
+{
+    background-color: purple;
+}
+
+nav a:nth-child(3):after
+{
+    background-color: palevioletred;
+}
+
+#indicator
+{
+    position: absolute;
+    left: 38%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: #000;
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+nav a:hover:before, nav a:hover:after
+{
+    transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator
+{
+    left: 5%;
+    background: linear-gradient(130deg, yellow, red);
+}
+
+nav a:nth-child(2):hover ~ #indicator
+{
+    left: 38%;
+    background: linear-gradient(130deg, #00e2ff, #89ff00);
+}
+
+nav a:nth-child(3):hover ~ #indicator
+{
+    left: 70%;
+    background: linear-gradient(130deg, purple, palevioletred);
+}
+
+#ytd-url {
+  display: block;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 10px 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  z-index: 125;
+}
