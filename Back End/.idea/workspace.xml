@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca023a81-97bb-4628-ba21-23daa3d1caa9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/validator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/passportConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/register.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/accountController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/accountController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/testlogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/testlogin.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +59,10 @@
       <option name="presentableId" value="Default" />
       <updated>1614708460923</updated>
       <workItem from="1614708463123" duration="3746000" />
+      <workItem from="1614735424469" duration="742000" />
+      <workItem from="1614807683930" duration="1195000" />
+      <workItem from="1614867010215" duration="5936000" />
+      <workItem from="1614912329864" duration="811000" />
     </task>
     <servers />
   </component>
@@ -72,5 +79,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
