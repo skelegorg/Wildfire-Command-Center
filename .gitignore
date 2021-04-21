@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 Back End/.env
 Back End/.env
+Back End/Back End/.env
